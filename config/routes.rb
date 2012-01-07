@@ -1,4 +1,6 @@
 EnjobsApp::Application.routes.draw do
+  resources :articles
+
   #get \"users\/show\"
 
   root :to => "home#index"

@@ -4,6 +4,8 @@ class CreateRoles < ActiveRecord::Migration
       t.string :name
 
       t.timestamps
+
+      t.references :user
     end
   end
 end
